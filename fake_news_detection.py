@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# <a href="https://colab.research.google.com/github/pbannuru/NLP-Basic_STUFF/blob/main/fake_news_detection.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-# In[1]:
 
 
 import tensorflow 
@@ -467,34 +462,5 @@ x=pad_sequences(x,maxlen=maxlen)
 
 
 (model.predict(x)>=0.5).astype(int)  ### result = fake
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
